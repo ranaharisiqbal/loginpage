@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="login">
+    <a href="#" onclick="closenav()">X</a>
+    <h1>
+            make your own account
+    </h1> 
+    <h1>
+        make your own account
+</h1>
+<form>
+    <table>
+        <tr>
+            <td><input type="text" placeholder="first name"></td>
+        
+            <td id="btn"><input type="text" placeholder="last name"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="email" placeholder="email"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="password" placeholder="password"></td>
+        </tr>
+        <tr id="rana">
+            <td><input type="radio"  name="gender"> MALE</td>
+            <td><input type="radio"  name="gender"> FEMALE</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="date"></td>
+        </tr>
+        <tr id="bb">
+            <td colspan="2"><input type="button" value="SIGN IN"></td>
+        </tr>
+    </table>
+</form>
+</div>
+<!-- login start -->
+
+<div class="new">
+<h1>
+    ACCOUNT LOGIN
+</h1>
+<h1>
+    ACCOUNT LOGIN
+</h1>
+</div>
+
+<div id="signin">
+<form>
+    <table>
+        <tr>
+            <td>
+                <input type="text" placeholder="Username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password" placeholder="password">
+            </td>
+        </tr>
+        <tr id="fff">
+            <td>
+                <input type="checkbox">  remember me
+            </td>
+        </tr>
+        <tr>
+            <td>
+        <input type="submit" value="LOG IN">
+    </td>
+    </tr>
+    <tr id="link">
+        <td>DONT HAVE AN ACCOUNT?<br/> <a href="#" onclick="opennav()">create an account</a></td>
+    </tr>
+    </table>
+</form>
+</div>
+
+
+
+
+
+
+
+
+<script>
+    function opennav()
+    {
+        document.getElementById('login').style.display='block';
+    }
+    function closenav()
+    {
+        document.getElementById('login').style.display='none';
+    }
+</script>
+</body>
+</html>
